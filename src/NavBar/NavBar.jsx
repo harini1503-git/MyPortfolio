@@ -39,10 +39,10 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed top-0 w-full z-50 transition duration-300 px-[7vw] md:px-[7vw] lg:px-[20vw] ${
-        isScrolled ? "bg-[#050414] bg-opacity-50 backdrop-blur-md shadow-md bg-transparent" : "bg-transparent"
+        isScrolled ? "bg-transparent" : "bg-transparent"
       }`}
     >
-      <div className="text-white py-5 flex justify-between items-center">
+      <div className={`text-white py-5 flex justify-between items-center`}>
         {/* Logo */}
         {/* <div className="text-lg font-semibold cursor-pointer">
           <span className="text-[#8245ec]">&lt;</span>
@@ -52,7 +52,7 @@ const Navbar = () => {
           <span className="text-[#8245ec]">&gt;</span>
         </div> */}
 
-        <h1 className="text-2xl font-semibold cursor-pointer text-gray-300">Harini Mudaliar</h1>
+        <h1 className="text-2xl font-bold cursor-pointer text-gray-300">Harini Mudaliar</h1>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-8 text-gray-300">
@@ -113,7 +113,7 @@ const Navbar = () => {
             {menuItems.map((item) => (
               <li
                 key={item.id}
-                className={`cursor-pointer font-semibold hover:text-[#8245ec] ${
+                className={`cursor-pointer font-bold hover:text-[#8245ec] ${
                   activeSection === item.id ? "text-[#8245ec]" : ""
                 }`}
               >
