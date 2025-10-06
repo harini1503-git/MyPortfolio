@@ -4,7 +4,7 @@ import Experience from './Experience/Experience';
 import Footer from './Footer/Footer';
 import Skills from './Skills/Skills';
 import Projects from './Projects/Projects';
-import Navbar from './Navbar/NavBar';
+import Navbar from './NavBar/NavBar';
 import Education from './Education/Education';
 import './App.css'
 import BlurBlob from './BlurBlob';

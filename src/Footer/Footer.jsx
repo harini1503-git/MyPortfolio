@@ -1,5 +1,6 @@
 import React from "react";
 import { FaLinkedin, FaInstagram } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 
 const Footer = () => {
   // Smooth scroll function
@@ -40,6 +41,7 @@ const Footer = () => {
           {[
             { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/harini-mudaliar-481a01272/" },
             { icon: <FaInstagram />, link: "https://www.instagram.com/candy_60568/" },
+            { icon: <SiLeetcode />, link: "https://leetcode.com/u/urmXxRCC0r/"}
             
           ].map((item, index) => (
             <a
