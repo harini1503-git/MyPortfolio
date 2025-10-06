@@ -1,5 +1,6 @@
 import { FiMenu, FiX } from "react-icons/fi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 import { use, useEffect, useState } from "react";
 
 const Navbar = () => {
@@ -87,6 +88,15 @@ const Navbar = () => {
             className="text-gray-300 hover:text-[#8245ec]"
           >
             <FaLinkedin size={24} />
+
+          </a>
+          <a
+            href="https://leetcode.com/u/urmXxRCC0r/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-300 hover:text-[#8245ec]"
+          >
+            <SiLeetcode size={24} />
           </a>
         </div>
 
@@ -138,6 +148,15 @@ const Navbar = () => {
                 className="text-gray-300 hover:text-[#8245ec]"
               >
                 <FaLinkedin size={24} />
+              </a>
+
+              <a
+                href="https://leetcode.com/u/urmXxRCC0r/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-[#8245ec]"
+              >
+                <SiLeetcode size={24} />
               </a>
             </div>
           </ul>
